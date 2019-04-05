@@ -3,27 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dallinjdahl.github.io/about/</loc>
+    <loc>https://dallinjdahl.github.io/about/index.htm</loc>
     <lastmod>2019-03-27T18:00:34-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dallinjdahl.github.io/reading/</loc>
+    <loc>https://dallinjdahl.github.io/reading/index.htm</loc>
     <lastmod>2019-03-27T18:00:34-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dallinjdahl.github.io/categories/</loc>
+    <loc>https://dallinjdahl.github.io/categories/index.htm</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dallinjdahl.github.io/tags/</loc>
+    <loc>https://dallinjdahl.github.io/tags/index.htm</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dallinjdahl.github.io/</loc>
+    <loc>https://dallinjdahl.github.io/index.htm</loc>
     <lastmod>2019-03-27T18:00:34-06:00</lastmod>
     <priority>0</priority>
   </url>
