@@ -13,7 +13,18 @@
   </url>
   
   <url>
+    <loc>https://dallinjdahl.github.io/projects/stac/index.htm</loc>
+    <lastmod>2019-03-27T18:00:34-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dallinjdahl.github.io/categories/index.htm</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dallinjdahl.github.io/projects/index.htm</loc>
+    <lastmod>2019-03-27T18:00:34-06:00</lastmod>
     <priority>0</priority>
   </url>
   
