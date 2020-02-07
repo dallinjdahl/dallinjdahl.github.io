@@ -18,7 +18,7 @@
       
       <guid>https://dallinjdahl.github.io/projects/stac/index.htm</guid>
       <description>A system-independent forth written in C.
-Notable Features Build Process Building stac involves 2 phases of compilation, one phase that generates the constants for a particular system, which are then included in the main compilation phase, compiling the actual binary. This keeps everything static in the binary, precluding the necesity of config files and their interpreters, although it does mean that the binary can&#39;t simply be copied from system to system, although in practice, due to the similarities in platforms, it should work fine within Linux machines.</description>
+Notable Features Build Process Building stac involves 2 phases of compilation, one phase that generates the constants for a particular system, which are then included in the main compilation phase, compiling the actual binary. This keeps everything static in the binary, precluding the necesity of config files and their interpreters, although it does mean that the binary can&amp;rsquo;t simply be copied from system to system, although in practice, due to the similarities in platforms, it should work fine within Linux machines.</description>
     </item>
     
   </channel>
