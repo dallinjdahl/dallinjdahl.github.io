@@ -6,11 +6,7 @@
     <description>Recent content in Projects on dallinjdahl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Mar 2019 18:00:34 -0600</lastBuildDate>
-    
-	<atom:link href="https://dallinjdahl.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 27 Mar 2019 18:00:34 -0600</lastBuildDate><atom:link href="https://dallinjdahl.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>stac</title>
       <link>https://dallinjdahl.github.io/projects/stac/index.htm</link>
