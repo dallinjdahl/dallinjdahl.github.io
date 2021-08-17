@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+  <head>
+    <title>Dallin Dahl's Personal Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="./">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link href="tailwind.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+    <style>#menubox:checked+#menu{display:block;}
+    </style>
+  </head>
+  <body class="flex flex-col min-h-screen justify-between">
+    <div class="flex flex-row p-8 flex-wrap items-center">
+      <div class="flex-1 flex justify-between items-center">
+        <a href="index.html" class="flex items-center">DALLINJDAHL</a>
+      </div>
+      <div>
+        <label for="menubox" class="object-center pointer-cursor sm:hidden block text-gray-700">
+          <i class="fas fa-bars w-5 h-5"></i>
+        </label>
+      </div>
+      <input type="checkbox" id="menubox" class="hidden">
+      <div id="menu" class="hidden sm:flex sm:items-center sm:w-auto w-full">
+        <div class="sm:flex items-center justify-between pt-4 sm:pt-0">
+          <a href="reading.html" class="p-2 block px-0 py-3 sm:p-4 text-gray-700">Reading</a>
+          <a href="resume.pdf" class="p-2 block px-0 py-3 sm:p-4 text-gray-700">Resume</a>
+          <a href="about.html" class="p-2 block px-0 py-3 sm:p-4 text-gray-700">About</a>
+        </div>
+      </div>
+    </div>
+    <div class="flex mt-2 mb-3 flex-col gap-6">
+      <div class="flex justify-center">
+        <img src="img/dallin.jpg" class="w-40 rounded-smooth">
+      </div>
+      <div>
+        <h1 class="text-center text-3xl font-medium">Dallin Dahl</h1>
+        <h2 class="text-center text-lg font-medium">Computer Engineer</h2>
+      </div>
+      <div class="flex justify-center flex-wrap gap-5">
+        <a href="https://github.com/dallinjdahl/" class="fab fa-github fa-2x"></a>
+        <a href="https://keybase.io/dallinjdahl/" class="fab fa-keybase fa-2x"></a>
+        <a href="https://linkedin.com/in/dallinjdahl/" class="fab fa-linkedin fa-2x"></a>
+        <a href="mailto:dallinjdahl@gmail.com" class="fas fa-envelope fa-2x"></a>
+      </div>
+    </div>
+    <p class="text-sm text-center m-8">"[I]f we wish to count lines of code, we should not regard them as 'lines produced' but as 'lines spent.'"<br><i><small>—Edsger W. Dijkstra</small></i></p>
+</body>
+</html>

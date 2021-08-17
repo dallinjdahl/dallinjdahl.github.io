@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+  <head>
+    <title>Dallin Dahl's Personal Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="./">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link href="tailwind.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+    <style>#menubox:checked+#menu{display:block;}
+    </style>
+  </head>
+  <body class="flex flex-col min-h-screen justify-between">
+    <div class="flex flex-row p-8 flex-wrap items-center">
+      <div class="flex-1 flex justify-between items-center">
+        <a href="index.html" class="flex items-center">DALLINJDAHL</a>
+      </div>
+      <div>
+        <label for="menubox" class="object-center pointer-cursor sm:hidden block text-gray-700">
+          <i class="fas fa-bars w-5 h-5"></i>
+        </label>
+      </div>
+      <input type="checkbox" id="menubox" class="hidden">
+      <div id="menu" class="hidden sm:flex sm:items-center sm:w-auto w-full">
+        <div class="sm:flex items-center justify-between pt-4 sm:pt-0">
+          <a href="reading.html" class="p-2 block px-0 py-3 sm:p-4 text-gray-700">Reading</a>
+          <a href="resume.pdf" class="p-2 block px-0 py-3 sm:p-4 text-gray-700">Resume</a>
+          <a href="about.html" class="p-2 block px-0 py-3 sm:p-4 text-gray-700">About</a>
+        </div>
+      </div>
+    </div>
+    <div class="flex mt-2 mb-3 flex-col gap-6 m-5">
+      <h1 class="text-3xl font-medium">Reading Material</h1>
+      <h2 class="text-xl font-medium">Currently Reading:</h2>
+      <p><a href="http://www.usingcsp.com/cspbook.pdf" class="text-blue-800">Communicating Sequential Processes</a> — C.A.R Hoare</p>
+      <h2 class="text-xl font-medium">Have Read, Would Recommend:</h2>
+      <ul class="list-disc ml-10">
+        <li>
+          <a href="https://letoverlambda.com/" class="text-blue-800">Let Over Lambda</a> — Doug Hoyte
+        </li>
+        <li>
+          <a href="https://www.researchgate.net/publication/215458960_Introduction_to_lambda_calculus" class="text-blue-800">Introduction to Lambda Calculus</a> — H. Barendregt & E. Barendsen
+        </li>
+        <li>
+          <a href="http://www.paulgraham.com/onlisp.html" class="text-blue-800">On Lisp</a> — Paul Graham
+        </li>
+        <li>
+          <a href="http://www-formal.stanford.edu/jmc/recursive.html" class="text-blue-800">Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I</a> — John McCarthy
+        </li>
+        <li>
+          <a href="http://www.paulgraham.com/hundred.html" class="text-blue-800">The Hundred Year Language</a> — Paul Graham
+        </li>
+        <li>
+          <a href="https://colorforth.github.io/HOPL.html" class="text-blue-800">Forth: The Early Years</a> — Charles (Chuck) Moore
+        </li>
+        <li>
+          <a href="http://www.ultratechnology.com/4th_1970.pdf" class="text-blue-800">Forth -- A Language for Interactive Computing (pdf)</a> — Charles (Chuck) Moore & Geoffrey Leach
+        </li>
+        <li>
+          <a href="https://swtch.com/~rsc/regexp/regexp1.html" class="text-blue-800">Regular Expression Matching Can Be Simple And Fast</a> — Russ Cox
+        </li>
+        <li>
+          <a href="http://doc.cat-v.org/bell_labs/pikestyle" class="text-blue-800">Notes on Programming in C</a> — Rob Pike
+        </li>
+        <li>
+          <a href="http://9p.io/sys/doc/9.html" class="text-blue-800">Plan 9</a> — Rob Pike et al.
+        </li>
+        <li>
+          <a href="https://9p.io/sys/doc/auth.html" class="text-blue-800">Security in Plan 9</a> — Russ Cox et al.
+        </li>
+        <li>
+          <a href="https://swtch.com/~rsc/thread/cws.pdf" class="text-blue-800">A Concurrent Window System (pdf)</a> — Rob Pike
+        </li>
+        <li>
+          <a href="http://9p.io/sys/doc/acme/acme.html" class="text-blue-800">Acme: A User Interface for Programmers</a> — Rob Pike
+        </li>
+        <li>
+          <a href="http://9p.io/sys/doc/sam/sam.html" class="text-blue-800">The Text Editor sam</a> — Rob Pike
+        </li>
+        <li>
+          <a href="http://doc.cat-v.org/bell_labs/structural_regexps/" class="text-blue-800">Structural Regular Expressions</a> — Rob Pike
+        </li>
+      </ul>
+      <p>Suggestions welcome by email!</p>
+    </div>
+    <p class="text-sm text-center m-8">"[I]f we wish to count lines of code, we should not regard them as 'lines produced' but as 'lines spent.'"<br><i><small>—Edsger W. Dijkstra</small></i></p>
+</body>
+</html>

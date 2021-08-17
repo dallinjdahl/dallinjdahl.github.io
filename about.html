@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+  <head>
+    <title>Dallin Dahl's Personal Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="./">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link href="tailwind.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+    <style>#menubox:checked+#menu{display:block;}
+    </style>
+  </head>
+  <body class="flex flex-col min-h-screen justify-between">
+    <div class="flex flex-row p-8 flex-wrap items-center">
+      <div class="flex-1 flex justify-between items-center">
+        <a href="index.html" class="flex items-center">DALLINJDAHL</a>
+      </div>
+      <div>
+        <label for="menubox" class="object-center pointer-cursor sm:hidden block text-gray-700">
+          <i class="fas fa-bars w-5 h-5"></i>
+        </label>
+      </div>
+      <input type="checkbox" id="menubox" class="hidden">
+      <div id="menu" class="hidden sm:flex sm:items-center sm:w-auto w-full">
+        <div class="sm:flex items-center justify-between pt-4 sm:pt-0">
+          <a href="reading.html" class="p-2 block px-0 py-3 sm:p-4 text-gray-700">Reading</a>
+          <a href="resume.pdf" class="p-2 block px-0 py-3 sm:p-4 text-gray-700">Resume</a>
+          <a href="about.html" class="p-2 block px-0 py-3 sm:p-4 text-gray-700">About</a>
+        </div>
+      </div>
+    </div>
+    <div class="flex mt-2 mb-3 flex-col gap-6 m-5">
+      <h1 class="text-3xl font-medium">About Dallin</h1>
+      <p>Dallin started teaching himself how to program in C++ at 12 years old, driven by his fascination with the inner workings of the computer. He then proceded to learn everything he could about different ways of programmming: extensively investigating the Lisp and Forth families of languages, reading about Smalltalk and Haskell.  He began to be curious about more than just application programming and began investigating different operating systems: the Lisp machine OS Genera, Chuck Moore's Forth system, and Plan9 from Bell Labs, among others.  These, in turn, informed his later projects and learning, encouraging him to pick up Clojure, write his own Forth system, and learn the Go language. He also aquired a strong theoretical background, reading articles on lambda calculus, finite-state automata, coroutines, and others. </p>
+      <p>At the age of 18 he left home to serve as a missionary for the Church of Jesus Christ of Latter-day Saints in Lima, Peru.  There he had the opportunity to do web-scraping and database manipulation in Go, to expedite the processes of immigration, and design the UI for a system managing the progress of all the missionaries.  Now he lives in Provo, UT, and is as avid as ever about continuing his learning and putting it into practice.  He currently is exploring manhattan style protyping of embedded systems and is teaching himself transistor-level digital design techniques. </p>
+    </div>
+    <p class="text-sm text-center m-8">"[I]f we wish to count lines of code, we should not regard them as 'lines produced' but as 'lines spent.'"<br><i><small>—Edsger W. Dijkstra</small></i></p>
+</body>
+</html>
